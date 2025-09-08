@@ -1,3 +1,4 @@
+import Earth from "../planets/Earth";
 import Sun from "../stars/Sun";
 
 const Experience = () => {
@@ -7,6 +8,9 @@ const Experience = () => {
 
       {/* Sun */}
       <Sun />
+
+      {/* Earth */}
+      <Earth />
     </mesh>
   );
 };

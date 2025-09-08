@@ -28,4 +28,7 @@ void main() {
 
     // Set final fragment color
     gl_FragColor = vec4(color, 1.0);
+
+    float edgeAlpha = dot(uCameraPosition, fragToCenter);
+    gl_FragColor = vec4(edgeAlpha);
 }

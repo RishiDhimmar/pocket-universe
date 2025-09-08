@@ -5,7 +5,7 @@ import Controls from "./Controls";
 
 const UniverseCanvas = () => {
   return (
-    <Canvas className="w-full h-full ">
+    <Canvas className="w-full h-full">
       <Experience />
       <Lighting />
       <Controls />
